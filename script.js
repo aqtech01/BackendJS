@@ -9,7 +9,13 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function goStore(){
-console.log("Going to Store"); 
+button1.innerText= "buy 10 health (10 Gold)" 
+button2.innerText= "buy weapon (30 Gold)" 
+button3.innerText= "Go to Town Square"
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
+Text.innerText = "Yoooo, Entered the store"; 
 
 }
 
